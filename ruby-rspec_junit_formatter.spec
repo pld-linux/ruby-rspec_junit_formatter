@@ -18,7 +18,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-RSpec results that Hudson can read.
+RSpec results that Hudson/Jenkins can read.
 
 %prep
 %setup -q -n %{pkgname}-%{version}
