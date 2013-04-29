@@ -3,7 +3,7 @@ Summary:	RSpec JUnit XML formatter
 Name:		ruby-%{pkgname}
 Version:	0.1.6
 Release:	1
-License:	GPL v2+ or Ruby
+License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
 # Source0-md5:	43fa23745ef40fb2a2132fe26d11a469
