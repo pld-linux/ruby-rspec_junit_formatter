@@ -1,12 +1,12 @@
 %define	pkgname	rspec_junit_formatter
 Summary:	RSpec JUnit XML formatter
 Name:		ruby-%{pkgname}
-Version:	0.1.6
-Release:	3
+Version:	0.4.1
+Release:	1
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
-# Source0-md5:	43fa23745ef40fb2a2132fe26d11a469
+# Source0-md5:	d73b8e71c3081da34e7bcc4b3252bdda
 URL:		http://github.com/sj26/rspec_junit_formatter
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
@@ -35,4 +35,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README.md LICENSE
 %{ruby_vendorlibdir}/rspec_junit_formatter.rb
-%{ruby_vendorlibdir}/rspec/core/formatters/j_unit_formatter.rb
+%{ruby_vendorlibdir}/rspec_junit_formatter
